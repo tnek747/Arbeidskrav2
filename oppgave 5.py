@@ -2,11 +2,11 @@
 """
 Created on Sat Jan  4 13:32:55 2025
 
-@author: ul54
+@author: KoKe
 """
 import math
 
-ia=input("Hvor er diameteren på sirkelen? ")
+ia=input("Hva er diameteren på sirkelen? ")
 ib=input("hva er høyden på trekanten? ")
 
 a=float(ia)

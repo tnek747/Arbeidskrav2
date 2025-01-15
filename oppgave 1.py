@@ -2,7 +2,7 @@
 """
 Created on Thu Nov 21 20:01:17 2024
 
-@author: ul54
+@author: KoKe
 """
 import datetime
 

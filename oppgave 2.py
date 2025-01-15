@@ -2,7 +2,7 @@
 """
 Created on Mon Oct 21 13:05:05 2024
 
-@author: ul54
+@author: KoKe
 """
 # import packages
 import math

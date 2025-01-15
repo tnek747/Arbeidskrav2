@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sat Jan  4 14:18:38 2025
-
-@author: ul54
+PS, måtte desverre bruke copilot i utstrakt grad for denne oppgaven.
+@author: KoKe
 """
 
 #import math
@@ -11,27 +11,27 @@ Created on Sat Jan  4 14:18:38 2025
 import matplotlib.pyplot as plt
 import numpy as np
 
-# Define the function f(x)
+# definerer funksjonen x
 def f(x):
     return -x**2 - 5
 
-# Generate x values from -10 to 10
-x = np.linspace(-10, 10, 200)
+# lager alle datapunkter fra -10 til 10.
+x = np.linspace(-10, 10, 100)
 
-# Calculate y values using the function
+# lager y basert på funksjoner x
 y = f(x)
 
-# Create the plot
+# bruker plot for å lage graf
 plt.plot(x, y, label='f(x) = -x^2 - 5')
 
-# Add title and labels
+# pynter grafen og dataene
 plt.title('Plot of f(x) = -x^2 - 5')
 plt.xlabel('x')
 plt.ylabel('f(x)')
 
-# Add a legend
+# legger inn fuksjonen som i grafen
 plt.legend()
 
-# Show the plot
+# tegner grafen
 plt.grid(True)
 plt.show()

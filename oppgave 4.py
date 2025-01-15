@@ -2,7 +2,7 @@
 """
 Created on Fri Nov 22 20:41:17 2024
 
-@author: ul54
+@author: KoKe
 """
 # Dict med data
 data= {
