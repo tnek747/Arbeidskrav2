@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sat Jan  4 14:18:38 2025
-PS, måtte desverre bruke copilot i utstrakt grad for denne oppgaven.
+PS, Måtte bruke copilot i utstrakt grad for denne oppgaven.
 @author: KoKe
 """
 
@@ -16,7 +16,7 @@ def f(x):
     return -x**2 - 5
 
 # lager alle datapunkter fra -10 til 10.
-x = np.linspace(-10, 10, 100)
+x = np.linspace(-10, 10, 200)
 
 # lager y basert på funksjoner x
 y = f(x)
